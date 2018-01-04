@@ -11,7 +11,7 @@ s.name             = 'PrivatePod'
 s.version          = '0.1.1'
 s.summary          = 'Private pod for add functionality'
 s.description      = <<-DESC
-
+add functionality for adding two digits
 DESC
 
 s.homepage         = 'https://github.com/NareshPamo/PrivatePod'
@@ -23,7 +23,8 @@ s.source           = { :git => 'https://github.com/NareshPamo/PrivatePod.git', :
 
 s.ios.deployment_target = '10.3'
 
-s.source_files = 'PrivatePod/Classes/**/*'
+ s.source_files = "PrivatePod/**/*.{swift}"
+'echo "4.0" > .swift-version'
 
 #s.resource_bundles = {
 # 'InstachkOffers' => ['InstachkOffers/Assets/*.png']
